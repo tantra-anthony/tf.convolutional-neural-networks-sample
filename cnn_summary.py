@@ -53,6 +53,12 @@ which can be processed by the ANN
 adding an artificial neural network to the flattened data
 in CNN, hidden layers are fully connected, in ANN it's not necessarily connected
 
+===Softmax and Cross-Entropy===
+Softmax function helps the output neurons to make sure probability adds up to 1
+last time the cost function was the mean-squared
+but after applying the softmax function, cross-entropy function works better in
+computing the error
+
 
 '''
 
